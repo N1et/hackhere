@@ -17,16 +17,6 @@ O **Mapa de Conferências de Segurança da Informação no Brasil** é uma plata
 - **Conectar** a comunidade de segurança brasileira
 - **Promover** o conhecimento e networking na área
 
-### ✨ Funcionalidades
-
-- 🗺️ **Mapa interativo** do Brasil com eventos por estado
-- 🔍 **Busca e filtros** por nome, estado e região
-- 📅 **Calendário** de eventos com datas e informações
-- 🔗 **Links diretos** para sites dos eventos e redes sociais
-- 📱 **Interface responsiva** e moderna
-
-## 🤝 Como Contribuir
-
 ### Adicionando Novos Eventos
 
 A principal forma de contribuir é adicionando novos eventos ao arquivo `src/data/events.json`. Siga os passos:
@@ -43,7 +33,6 @@ A principal forma de contribuir é adicionando novos eventos ao arquivo `src/dat
 {
   "name": "Nome da Conferência",
   "date": "2025-12",
-  "approximate": false,
   "city": "São Paulo",
   "state": "SP",
   "url": "https://exemplo.com.br",
@@ -58,86 +47,10 @@ A principal forma de contribuir é adicionando novos eventos ao arquivo `src/dat
 }
 ```
 
-### 📋 Campos Obrigatórios
-
-| Campo | Descrição | Exemplo |
-|-------|-----------|---------|
-| `name` | Nome do evento | `"BSides São Paulo"` |
-| `date` | Ano e mês (YYYY-MM) | `"2025-09"` |
-| `city` | Cidade | `"São Paulo"` |
-| `state` | Sigla do estado | `"SP"` |
-| `url` | Site oficial | `"https://bsides.com.br"` |
-| `price` | Faixa de preço | `"Gratuito"` ou `"R$ 50-100"` |
-
-### 📋 Campos Opcionais
-
-| Campo | Descrição | Exemplo |
-|-------|-----------|---------|
-| `approximate` | Data aproximada | `true` ou `false` |
-| `description` | Descrição detalhada | `"Conferência focada em..."` |
-| `tags` | Categorias | `["hacking", "ctf", "general"]` |
-| `socials` | Redes sociais | Ver estrutura acima |
-
-### 🏷️ Tags Disponíveis
-
-- `general` - Eventos gerais de segurança
-- `hacking` - Focado em hacking/pentest
-- `pesquisa` - Pesquisa acadêmica
-- `ctf` - Capture The Flag
-- `forensics` - Forense digital
-- `privacy` - Privacidade e proteção de dados
-- `enterprise` - Segurança corporativa
-
-## 🚀 Desenvolvimento Local
-
-```bash
-# Clone o repositório
-git clone https://github.com/seu-usuario/mapa-sec-conf-br.git
-
-# Instale as dependências
-npm install
-
-# Execute o servidor de desenvolvimento
-npm run dev
-
-# Acesse http://localhost:3000
-```
-
-## 📄 Exemplo de Contribuição
-
-```json
-{
-  "name": "Security BSides São Paulo 2025",
-  "date": "2025-08",
-  "approximate": false,
-  "city": "São Paulo",
-  "state": "SP",
-  "url": "https://bsides.com.br",
-  "tags": ["general", "hacking"],
-  "description": "O Security BSides é uma conferência comunitária que reúne profissionais de segurança da informação para compartilhar conhecimento e networking.",
-  "socials": {
-    "twitter": "https://twitter.com/bsidessp",
-    "telegram": "https://t.me/bsidessp"
-  },
-  "price": "R$ 50-80"
-}
-```
-
+#
 ## 🤖 Tecnologias
 
 - **Next.js 14** - Framework React
 - **TypeScript** - Tipagem estática
 - **Tailwind CSS** - Estilização
 - **React Simple Maps** - Mapas interativos
-
-## 📞 Contato
-
-- 🐦 Twitter: [@hackhere](https://twitter.com/hackhere)
-- 📧 Email: contato@hackhere.com.br
-- 💬 Telegram: [Canal HackHere](https://t.me/hackhere)
-
----
-
-<div align="center">
-  Feito com ❤️ pela comunidade brasileira de segurança da informação
-</div>
