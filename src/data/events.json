@@ -1,0 +1,17 @@
+[
+  {
+    "name": "H2HC - Hackers to Hackers Conference",
+    "date": "2025-11",
+    "city": "São Paulo",
+    "state": "SP",
+    "url": "https://www.h2hc.com.br",
+    "tags": ["hacking", "security research", "hardware"],
+    "description": "A Conferência Hackers To Hackers (H2HC) é um evento organizado por pessoas que trabalham ou estão diretamente envolvidas em pesquisa e desenvolvimento no campo da segurança da informação. O principal objetivo é permitir a disseminação, discussão e troca de conhecimentos sobre segurança da informação entre os participantes e as empresas envolvidas no evento. Com treinamentos e palestras apresentadas por membros respeitados do mundo corporativo, grupos de pesquisa e da comunidade underground, a conferência deste ano promete demonstrar técnicas que nunca foram vistas ou discutidas com o público antes.",
+    "socials": {
+      "twitter": "https://x.com/h2hconference",
+      "telegram": "https://t.me/h2hconference",
+      "instagram": "https://www.instagram.com/h2hconference/"
+    },
+    "price": "R$ 200 - 400"
+  }
+]
