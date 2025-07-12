@@ -1,7 +1,7 @@
 [
   {
     "name": "H2HC - Hackers to Hackers Conference",
-    "date": "2025-11",
+    "date": "2025-12",
     "city": "São Paulo",
     "state": "SP",
     "url": "https://www.h2hc.com.br",
@@ -25,6 +25,20 @@
     "socials": {
       "twitter": "https://x.com/bsidessp",
       "instagram": "https://www.instagram.com/bsidessp"
+    },
+    "price": "R$ Gratuito"
+  }
+      {
+    "name": "BHack Conference",
+    "date": "2025-11",
+    "city": "Belo Horizonte",
+    "state": "MG",
+    "url": "https://www.bhack.com.br/",
+    "tags": ["hacking", "security research"],
+    "description": "Desde 2012, a BHack tem como objetivo atender às necessidades do público mineiro quando se trata de Segurança da Informação (SI). São dois dias de evento. E ao longo desta jornada proporcionaremos aos participantes palestras repletas de conteúdos atuais e relevantes para todos aqueles que lidam com Segurança da Informação, agregando conhecimento e promovendo integração entre gestores e técnicos.",
+    "socials": {
+      "twitter": "https://x.com/bhack",
+      "instagram": "https://www.instagram.com/bhackconference"
     },
     "price": "R$ Gratuito"
   }
