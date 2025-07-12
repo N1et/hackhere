@@ -199,7 +199,9 @@ export default function Home() {
                 {filteredEvents.map((event, idx) => (
                   <div
                     key={idx}
-                    ref={(el) => (eventRefs.current[idx] = el)}
+                    ref={(el) => {
+                      eventRefs.current[idx] = el;
+                    }}
                     onClick={() => handleEventClick(idx)}
                     className={`cursor-pointer border border-slate-600 bg-gray-800 rounded-lg p-4 ring ring-gray-900/5 shadow-xl flex flex-col gap-1 transition-all focus:outline-none
                       ${idx === selectedEvent ? "bg-gray-800 brightness-150 ring-2 ring-blue-400" : "hover:bg-slate-700"}
