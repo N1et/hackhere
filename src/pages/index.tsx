@@ -397,7 +397,7 @@ export default function Home() {
             <div>
               <span>Deseja contribuir? </span>
               <a 
-                href="https://github.com/medeiros/mapa-sec-conf-br" 
+                href="https://github.com/N1et/hackhere" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-blue-400 hover:underline transition-colors"
