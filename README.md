@@ -6,11 +6,11 @@
   <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
 </div>
 
-## 📖 Sobre o Projeto
+##  Sobre o Projeto
 
 O **Mapa de Conferências de Segurança da Informação no Brasil** é uma plataforma interativa que centraliza informações sobre eventos, conferências e meetups de cybersecurity realizados em território nacional.
 
-### 🎯 Objetivos
+### Objetivos
 
 - **Centralizar** informações sobre eventos de segurança da informação
 - **Facilitar** a descoberta de conferências por região/estado
@@ -48,7 +48,7 @@ A principal forma de contribuir é adicionando novos eventos ao arquivo `src/dat
 ```
 
 #
-## 🤖 Tecnologias
+## Tecnologias
 
 - **Next.js 14** - Framework React
 - **TypeScript** - Tipagem estática
