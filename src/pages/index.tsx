@@ -209,7 +209,6 @@ export default function Home() {
                   >
                     <span className="font-bold">{event.name}</span>
                     <span className="text-xs text-gray-400">
-                      {event.approximate ? "Aproximado - " : ""}
                       {formatDate(event.date)}
                     </span>
                     <span className="text-xs text-gray-400">{event.city}, {event.state}</span>
@@ -279,7 +278,6 @@ export default function Home() {
                   </svg>
                   <span className="text-sm">
                     {formatDate(selectedEventData.date)}
-                    {selectedEventData.approximate && <span className="text-gray-400 ml-1">(Aproximado)</span>}
                   </span>
                 </div>
 
