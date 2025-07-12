@@ -1,25 +1,22 @@
 // src/components/MapChart.tsx
 import React, { useState } from "react";
-import { ComposableMap, Geographies, Geography, Marker } from "react-simple-maps";
+import { ComposableMap, Geographies, Geography } from "react-simple-maps";
 import events from "@/data/events.json";
 
 const geoUrl =
   "https://raw.githubusercontent.com/codeforamerica/click_that_hood/master/public/data/brazil-states.geojson";
 
 interface MapChartProps {
-  onMarkerClick: (idx: number) => void;
-  selectedEvent: number | null;
+  onMarkerClick?: (idx: number) => void;
+  selectedEvent?: number | null;
   selectedState: string | null;
   setSelectedState: (state: string | null) => void;
 }
 
 export function MapChart({ 
-  onMarkerClick, 
-  selectedEvent, 
   selectedState, 
   setSelectedState 
 }: MapChartProps) {
-  const [hoveredEvent, setHoveredEvent] = useState<number | null>(null);
   const [hoveredState, setHoveredState] = useState<string | null>(null);
 
   // Estados que possuem eventos
@@ -112,32 +109,6 @@ export function MapChart({
             })
           }
         </Geographies>
-
-        {/* MARCADORES DE EVENTOS - COMENTADOS PARA USO FUTURO */}
-        {/* 
-        {events.map((event, idx) =>
-          event.latitude && event.longitude ? (
-            <Marker
-              key={idx}
-              coordinates={[event.longitude, event.latitude]}
-              onClick={() => onMarkerClick(idx)}
-              onMouseEnter={() => setHoveredEvent(idx)}
-              onMouseLeave={() => setHoveredEvent(null)}
-            >
-              <circle
-                r={selectedEvent === idx || hoveredEvent === idx ? 8 : 5}
-                fill="#f43f5e"
-                strokeWidth={1}
-                filter="url(#radar)"
-                className={`transition-all duration-300 ${
-                  hoveredEvent === idx ? "animate-pulse" : ""
-                }`}
-                style={{ cursor: "pointer" }}
-              />
-            </Marker>
-          ) : null
-        )}
-        */}
       </ComposableMap>
     </div>
   );
